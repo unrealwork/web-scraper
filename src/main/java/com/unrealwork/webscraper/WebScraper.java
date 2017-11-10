@@ -1,5 +1,6 @@
 package com.unrealwork.webscraper;
 
+import com.unrealwork.webscraper.logging.LoggingManager;
 import java.util.logging.Logger;
 
 /**
@@ -19,6 +20,7 @@ public final class WebScraper {
    * @param args program arguments described in readme file.
    */
   public static void main(final String[] args) {
+    LoggingManager.init();
     Logger log = Logger.getLogger(WebScraper.class.getName());
     log.info("Hello I'm Web Scraper");
   }
