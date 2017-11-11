@@ -1,10 +1,20 @@
-## Web Scraper
+<p align="center">
+  <img title="Redash" src='logo.png' height="100px"/>
+</p>
+<p align="center">
+  <strong><i>Web Scraper</i></strong>
+</p>
+<p align="center">
+    <a href='https://circleci.com/gh/unrealwork/web-scraper/tree/master'>
+      <img title="Build Status" src='https://circleci.com/gh/unrealwork/web-scraper/tree/master.svg?style=svg'/>
+    </a>
+</p>
 
-#### Description
+## Description
 
 Create console [web scraper](http://en.wikipedia.org/wiki/Web_scraping) utility which accepts as command line parameters:
 
-#### Arguments
+## Arguments
 
 | Description | Format | Example | Required  |
 | --- | --- | --- | --- |
@@ -17,7 +27,7 @@ Create console [web scraper](http://en.wikipedia.org/wiki/Web_scraping) utility 
  
 Data processing results should be printed to output for each web resources separately and for all resources as total.
 
-#### Example of usages 
+## Example of usages 
 
 ```sh
 java –jar scraper.jar https://en.wikipedia.org/wiki/Google Microsoft,Apple –v –w –c –e
